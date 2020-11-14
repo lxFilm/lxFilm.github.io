@@ -56,15 +56,16 @@ a{
     font-size: 1.7rem;
     margin-bottom: 10px;
 }
-
+.section-3 h1{
+    font-size: 5.7rem;
+    margin-bottom: 0px;
+    color: #fffb00;
+    
+}
 .section-2 p{
     font-size: 1.1rem;
     padding-bottom: 10px;
     margin:0;
-}
-
-.err {
-    color: #00a1ff;
 }
 
 .section-2 a{
@@ -80,6 +81,16 @@ a{
     color: #00a1ff;
     cursor: pointer;
     transition: 0.2s;
+}
+.section-3 a:hover{
+
+    padding-top: 5px;
+    font-size: 1.6rem;
+    color: #00ff55;
+    cursor: pointer;
+    transition: 0.2s;
+    
+    cursor: pointer;
 }
 
 .copyright {
@@ -122,5 +133,10 @@ img {
         padding: 0;
         padding-left: 1.5rem;
         padding-top: 2rem;
+    }
+    .section-3{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 10rem;
     }
 }
