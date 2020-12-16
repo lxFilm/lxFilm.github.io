@@ -1,0 +1,151 @@
+/* global */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('https://cdn.discordapp.com/attachments/775578665290432542/788896451182329856/VIBENYC_3RT_Film.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #c7c7c7;
+
+}
+
+
+h2,.white{
+    color: #fff;
+}
+
+a{
+    color: #7A7C80;
+    text-decoration: none;
+}
+
+/* section 1 */
+.section-1{
+    padding-top: 40vh;
+    text-align: center;
+}
+
+.section-1 p{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    margin:0;
+    overflow: auto;
+    color: #40254a;
+}
+
+.section-1 h2{
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+    overflow: auto;
+    color: #ffef5f;
+}
+
+.section-1 a{
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    overflow: auto;
+    color: #40254a;
+}
+/* section 2 */
+.section-2{
+    padding-top: 10vh;
+    width: 70%;
+}
+
+.section-2 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+.section-3 h1{
+    font-size: 5.7rem;
+    margin-bottom: 0px;
+    color: #fffb00;
+    
+}
+.section-2 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-2 a{
+    display: block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+}
+/* animations / utilities */
+.section-2 a:hover{
+    font-size: 1.3rem;
+    color: #00a1ff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.section-3 a:hover{
+
+    padding-top: 5px;
+    font-size: 1.6rem;
+    color: #00ff55;
+    cursor: pointer;
+    transition: 0.2s;
+    
+    cursor: pointer;
+}
+
+.copyright {
+    margin: 260px auto 0 auto;
+    width: 100%;
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+    color: #00a1ff;
+    background-color: #00a1ff;
+    border-top: 3px solid #00a1ff;
+}
+
+img {
+    width: 45%;
+    margin: -150px auto 0 auto;
+  }
+
+.section-1 a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
+}
+
+/* media queres */
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .section-1{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section-2{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+    .section-3{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 10rem;
+    }
+}
