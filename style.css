@@ -15,7 +15,16 @@ body{
 
 }
 
+header {
+    color: #fff;
+    text-align: center;
+    text-align-last: auto;    
+}
 
+header a{
+    color:#000000
+    
+}
 h2,.white{
     color: #fff;
 }
@@ -23,6 +32,8 @@ h2,.white{
 a{
     color: #7A7C80;
     text-decoration: none;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 /* section 1 */
